@@ -1,0 +1,26 @@
+// react is javascript library
+// it is used to develop UI pages by building components
+// it is used in developing single page application
+// modules-logic package-collection of modules
+//react is built with multiple components
+//component-functional component & class components
+
+
+   // <div>
+    //   <div>
+    //     <h1 className='heading'>Hello React</h1>
+    //   </div>
+    //   <div>
+    //     <FirstComponent>
+
+    //     </FirstComponent>
+    //   </div>
+    //   <div>
+    //     <SecondComponent>
+
+    //     </SecondComponent>
+    //   </div>
+
+    // </div>
+
+//props-
