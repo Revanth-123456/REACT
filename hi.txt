@@ -23,4 +23,4 @@
 
     // </div>
 
-//props-
+//props-it is used to communicate between the components

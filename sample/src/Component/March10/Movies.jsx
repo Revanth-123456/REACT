@@ -7,10 +7,15 @@ function Movies(props) {
 
     let data = movies.map((value) => {
         return (
-            <div className="">
+            <div className="movie-container">
+
+                <div className="movie-text">
+                    <h1>{value.name}</h1>
+                    <p>{value.about}</p>
+                </div>
 
                 <div>
-                    <img src={value.imageUrl} alt={value.name}  style={{ width: "100vw", height: "100vh", objectFit: "cover" }} />
+                    <img className="movie-image" src={value.imageUrl} alt={value.name}  />
                 </div>
             </div>
 
@@ -20,7 +25,6 @@ function Movies(props) {
     return (
         <div>
             {data}
-            {/* <h1>My name is {props.firstname}</h1> */}
         </div>
     )
 }
