@@ -64,8 +64,8 @@ function App() {
       {/* <Sample firstname={name} /> */}
       {/* <Movies movies={movieData}/> */}
       <ProductCard products={products} />
-      {/* <h1>hello</h1> */}
-      {/* <FirstComponent></FirstComponent> */}
+      <h1>hello</h1>
+      <FirstComponent></FirstComponent>
     </div>
   );
 }
