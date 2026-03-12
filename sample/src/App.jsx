@@ -2,6 +2,7 @@ import './App.css';
 import Sample from './Component/March10/Sample';
 import Movies from './Component/March10/Movies';
 import ProductCard from './Component/March10/ProductCard';
+import FirstComponent from './FirstComponent';
 
 
 function App() {
@@ -63,6 +64,8 @@ function App() {
       {/* <Sample firstname={name} /> */}
       {/* <Movies movies={movieData}/> */}
       <ProductCard products={products} />
+      {/* <h1>hello</h1> */}
+      {/* <FirstComponent></FirstComponent> */}
     </div>
   );
 }
