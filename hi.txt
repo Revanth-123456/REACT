@@ -23,4 +23,4 @@
 
     // </div>
 
-//props-it is used to communicate between the components
+//props-it is just a data(store data-using code) used to communicate between the components

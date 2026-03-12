@@ -47,25 +47,25 @@ function App() {
 
   // let name = "David";
 
-  // let obj = [
-  //   {name:"David",employer:"Google"},
-  //   {name:"David",employer:"Google"},
-  //   {name:"David",employer:"Google"},
-  //   {name:"David",employer:"Google"},
-  //   {name:"David",employer:"Google"},
-  //   {name:"David",employer:"Google"},
-  // ];
+  let obj = [
+    {name:"David",employer:"Google"},
+    {name:"David",employer:"Google"},
+    {name:"David",employer:"Google"},
+    {name:"David",employer:"Google"},
+    {name:"David",employer:"Google"},
+    {name:"David",employer:"Google"},
+  ];
 
 
 
   return (
     <div>
-      {/* <Sample obj={obj}/> */}
+      <Sample obj={obj}/>
       {/* <Sample firstname={name} /> */}
       {/* <Movies movies={movieData}/> */}
       <ProductCard products={products} />
-      <h1>hello</h1>
-      <FirstComponent></FirstComponent>
+      {/* <h1>hello</h1> */}
+      {/* <FirstComponent></FirstComponent>  */}
     </div>
   );
 }
