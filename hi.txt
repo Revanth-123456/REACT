@@ -3,7 +3,7 @@
 // it is used in developing single page application
 // modules-logic package-collection of modules
 //react is built with multiple components
-//component-functional component & class components
+//component-functional component & class components-in both props will come
 
 
    // <div>
@@ -24,3 +24,6 @@
     // </div>
 
 //props-it is just a data(store data-using code) used to communicate between the components
+//difference between props and state
+props- props are immutable (read-only) and passed down from a parent component to a child, 
+state-state is mutable and managed locally within the component.
