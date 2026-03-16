@@ -27,3 +27,17 @@
 //difference between props and state
 props- props are immutable (read-only) and passed down from a parent component to a child, 
 state-state is mutable and managed locally within the component.
+
+
+//bind
+
+//set state-method which is used to update the current state
+
+//functionalcomponent (Stateless)    Class component(Stateful)
+will not handle state                 has state to handle
+no render                             render
+
+state                                 props
+data in component                     data is passed between component
+can update state                      cannot be updated
+it is mutable                         it is immutable

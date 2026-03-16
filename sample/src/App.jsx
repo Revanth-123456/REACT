@@ -5,6 +5,9 @@ import ProductCard from './Component/March10/ProductCard';
 import FirstComponent from './FirstComponent';
 import ClassOne from './Component/March10/Class';
 import Payment from './Component/March10/Payment';
+import Team from './Component/March10/StateComponent';
+import StateComponent from './Component/March10/StateComponent';
+import ImageChange from './Component/March10/ImageChange';
 
 function App() {
 
@@ -67,8 +70,11 @@ function App() {
       {/* <ProductCard products={products} /> */}
       {/* <h1>hello</h1> */}
       {/* <FirstComponent></FirstComponent>  */}
-      <ClassOne name="David" />
-      <Payment/>
+      {/* <ClassOne name="David" />
+      <Payment/> */}
+      {/* <StateComponent/> */}
+      <ImageChange/>
+
     </div>
   );
 }
