@@ -37,7 +37,18 @@ state-state is mutable and managed locally within the component.
 will not handle state                 has state to handle
 no render                             render
 
+TO handle those functions in functionalcomponent-to make stateful
+hooks- are introduced to handle the features that are available in class component to functionalcomponent
+
 state                                 props
 data in component                     data is passed between component
 can update state                      cannot be updated
 it is mutable                         it is immutable
+
+syntax for fragment-<> </> to remove unnecessary code.
+
+syntax for the usage of useState 
+
+const [name,setName]=useState();
+const [age,setAge]=useState();
+const[isSalaried,setIsSalaried]=useState();
