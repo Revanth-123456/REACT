@@ -1,0 +1,72 @@
+/* Full screen center */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7fa;
+}
+
+/* Card style */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Balance header */
+.balance {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Input box */
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Button group */
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Add button */
+.add-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Withdraw button */
+.withdraw-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hover effects */
+.add-btn:hover {
+    background-color: #218838;
+}
+
+.withdraw-btn:hover {
+    background-color: #c82333;
+}

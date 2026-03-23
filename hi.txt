@@ -52,3 +52,5 @@ syntax for the usage of useState
 const [name,setName]=useState();
 const [age,setAge]=useState();
 const[isSalaried,setIsSalaried]=useState();
+
+useEffect-it is used to add the side effects to your component

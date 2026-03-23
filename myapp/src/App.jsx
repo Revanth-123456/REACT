@@ -2,6 +2,9 @@ import './App.css'
 import LearnFragment from './Component/LearnFragment'
 import LearnUseState from './Component/UseState'
 import LearnCounter from './Component/LearnCounter'
+import Change from './Component/Change'
+import Balance from './Component/Balance'
+import SideEffect from './Component/SideEffect'
 
 function App() {
  
@@ -10,7 +13,10 @@ function App() {
    <div>
     {/* <LearnFragment/> */}
     {/* <LearnUseState/> */}
-    <LearnCounter/>
+    {/* <LearnCounter/> */}
+    {/* <Change/> */}
+    {/* <Balance/> */}
+    <SideEffect/>
 
    </div>
   )
