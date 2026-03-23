@@ -5,8 +5,11 @@ import LearnCounter from './Component/LearnCounter'
 import Change from './Component/Change'
 import Balance from './Component/Balance'
 import SideEffect from './Component/SideEffect'
+import Routing from './Component/Routing'
+import ProductCard from './Component/Card'
 
 function App() {
+
  
 
   return (
@@ -16,7 +19,8 @@ function App() {
     {/* <LearnCounter/> */}
     {/* <Change/> */}
     {/* <Balance/> */}
-    <SideEffect/>
+    {/* <SideEffect/> */}
+    <Routing/>
 
    </div>
   )

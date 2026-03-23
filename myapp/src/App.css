@@ -1,11 +1,11 @@
-/* Full screen center */
+/* Full screen center
 .container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f5f7fa;
-}
+} */
 
 /* Card style */
 .card {
@@ -69,4 +69,94 @@
 
 .withdraw-btn:hover {
     background-color: #c82333;
+}
+
+
+/* Product Layout Container */
+.product-card {
+  display: grid;
+  grid-template-columns: 180px 700px 200px;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Image Section */
+.product-image img {
+  width: 150px;
+}
+
+/* Product Details Section */
+.sponsored {
+  font-size: 12px;
+  color: gray;
+}
+
+.title {
+  font-size: 18px;
+  margin: 6px 0;
+}
+
+.rating {
+  margin: 6px 0;
+}
+
+.rating-badge {
+  background: #388e3c;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.reviews {
+  margin-left: 8px;
+  color: gray;
+  font-size: 13px;
+}
+
+.features {
+  margin-top: 8px;
+  padding-left: 18px;
+  font-size: 14px;
+}
+
+/* Price Section */
+.price-section h2 {
+  margin: 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 10px;
+}
+
+.discount {
+  color: green;
+  font-weight: 600;
+}
+
+.exchange {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.bank {
+  font-size: 14px;
+  color: green;
+}
+
+.assured {
+  margin-top: 6px;
+  color: #2874f0;
+  font-weight: 600;
+}
+
+.compare {
+  margin-top: 10px;
+  font-size: 13px;
 }

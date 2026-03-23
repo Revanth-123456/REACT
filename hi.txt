@@ -53,4 +53,5 @@ const [name,setName]=useState();
 const [age,setAge]=useState();
 const[isSalaried,setIsSalaried]=useState();
 
-useEffect-it is used to add the side effects to your component
+useEffect-it is used to add the side effects to your component,
+how do u call useEffect only once,after change of source value,what is DI(dependency injection)??
