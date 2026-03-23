@@ -1,6 +1,7 @@
 import './App.css'
 import LearnFragment from './Component/LearnFragment'
 import LearnUseState from './Component/UseState'
+import LearnCounter from './Component/LearnCounter'
 
 function App() {
  
@@ -8,7 +9,8 @@ function App() {
   return (
    <div>
     {/* <LearnFragment/> */}
-    <LearnUseState/>
+    {/* <LearnUseState/> */}
+    <LearnCounter/>
 
    </div>
   )
