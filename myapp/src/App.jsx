@@ -23,10 +23,10 @@ function App() {
     {/* <Change/> */}
     {/* <Balance/> */}
     {/* <SideEffect/> */}
-    {/* <Routing/> */}
-    {data}
+    <Routing/>
+    {/* {data}
     <FunctionOne/>
-    <FunctionTwo/>
+    <FunctionTwo/> */}
    </div>
   );
 }
