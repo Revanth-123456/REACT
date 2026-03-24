@@ -7,9 +7,14 @@ import Balance from './Component/Balance'
 import SideEffect from './Component/SideEffect'
 import Routing from './Component/Routing'
 import ProductCard from './Component/Card'
+import FunctionOne from './Component/FunctionOne'
+import FunctionTwo from './Component/FunctionTwo'
 
 function App() {
-  
+
+  const isUser=false;
+  const data=isUser?<FunctionOne/>:<FunctionTwo/>
+
   return (
    <div>
     {/* <LearnFragment/> */}
@@ -18,7 +23,10 @@ function App() {
     {/* <Change/> */}
     {/* <Balance/> */}
     {/* <SideEffect/> */}
-    <Routing/>
+    {/* <Routing/> */}
+    {data}
+    <FunctionOne/>
+    <FunctionTwo/>
    </div>
   );
 }
