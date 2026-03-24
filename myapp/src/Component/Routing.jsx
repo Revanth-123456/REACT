@@ -1,11 +1,8 @@
 import React from "react";
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
 import SideEffect from "./SideEffect";
-import Change from "./Change";
 import ProductView from "./ProductView";
-
-
-
+import Balance from "./Balance";
 
 function Routing() {
     return (
@@ -14,7 +11,7 @@ function Routing() {
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="">Home</Link>
                         </li>
                         <li>
                             <Link to="/landing">Landing</Link>
@@ -26,9 +23,8 @@ function Routing() {
                 </nav>
 
                 <Routes>
-                     <Route path="/" element={<Change/>} />
+                    <Route path="" element={<Balance />} />
                     <Route path="/landing" element={<ProductView />} />
-                   
                     <Route path="/dashboard" element={<SideEffect />} />
                 </Routes>
             </div>

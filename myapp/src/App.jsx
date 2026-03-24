@@ -9,9 +9,7 @@ import Routing from './Component/Routing'
 import ProductCard from './Component/Card'
 
 function App() {
-
- 
-
+  
   return (
    <div>
     {/* <LearnFragment/> */}
@@ -21,9 +19,8 @@ function App() {
     {/* <Balance/> */}
     {/* <SideEffect/> */}
     <Routing/>
-
    </div>
-  )
+  );
 }
 
 export default App
