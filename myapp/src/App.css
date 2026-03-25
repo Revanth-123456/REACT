@@ -160,3 +160,48 @@
   margin-top: 10px;
   font-size: 13px;
 }
+
+.sample-link{
+  text-decoration: none;
+  color: #218838;
+}
+
+/* Navbar container */
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* center items */
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 12px 0;
+    margin: 0;
+    gap: 30px; /* space between items */
+}
+
+/* Each list item */
+.navbar li {
+    display: inline;
+}
+
+/* Links */
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 14px;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+}
+
+/* Hover effect */
+.navbar li a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Active link (optional) */
+.navbar li a.active {
+    background-color: #1abc9c;
+    color: white;
+}

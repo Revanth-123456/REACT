@@ -6,7 +6,10 @@ function Param() {
   const { prodId } = useParams();
   console.log("hello", prodId);
 
+  console.log("data",products);
   let filterdData = products.filter((value) => value.id == prodId);
+  console.log("filtered data",filterdData);
+  
   return (
     <div>
       {filterdData.map((product) => {

@@ -10,7 +10,7 @@ function Routing() {
         <BrowserRouter>
             <div>
                 <nav>
-                    <ul>
+                    <ul className="navbar">
                         <li>
                             <Link to="">Home</Link>
                         </li>
