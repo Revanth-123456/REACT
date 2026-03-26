@@ -9,11 +9,15 @@ import Routing from './Component/Routing'
 import ProductCard from './Component/Card'
 import FunctionOne from './Component/FunctionOne'
 import FunctionTwo from './Component/FunctionTwo'
+import UpdatedComponent from './Component/hoc/UpdatedComponent'
+import NormalComponent from './Component/hoc/NormalComponent'
+import NormalUser from './Component/hoc/NormalUser'
+import PremiumUser from './Component/hoc/PremiumUser'
 
 function App() {
 
-  const isUser=false;
-  const data=isUser?<FunctionOne/>:<FunctionTwo/>
+  // const isUser=false;
+  // const data=isUser?<FunctionOne/>:<FunctionTwo/>
 
   return (
    <div>
@@ -23,10 +27,15 @@ function App() {
     {/* <Change/> */}
     {/* <Balance/> */}
     {/* <SideEffect/> */}
-    <Routing/>
+    {/* <Routing/> */}
     {/* {data}
     <FunctionOne/>
     <FunctionTwo/> */}
+    {/* <NormalComponent name="Normal"/>
+    <UpdatedComponent name="Updated"/> */
+    }
+    <NormalUser/>
+    <PremiumUser/>
    </div>
   );
 }

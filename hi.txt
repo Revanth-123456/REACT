@@ -55,3 +55,6 @@ const[isSalaried,setIsSalaried]=useState();
 
 useEffect-it is used to add the side effects to your component,
 how do u call useEffect only once,after change of source value,what is DI(dependency injection)??
+
+
+Passing the component as an argument to another component to get an updated component
