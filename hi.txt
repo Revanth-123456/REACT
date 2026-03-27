@@ -58,3 +58,6 @@ how do u call useEffect only once,after change of source value,what is DI(depend
 
 
 Passing the component as an argument to another component to get an updated component
+
+how do pass data from children component to parent component ?how do u uplift data from child to parent?
+answer-ipl.jsx answer

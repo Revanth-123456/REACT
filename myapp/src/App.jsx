@@ -13,11 +13,17 @@ import UpdatedComponent from './Component/hoc/UpdatedComponent'
 import NormalComponent from './Component/hoc/NormalComponent'
 import NormalUser from './Component/hoc/NormalUser'
 import PremiumUser from './Component/hoc/PremiumUser'
+import GetApiData from './Component/GetApi'
+import Ipl from './Component/Ipl'
 
 function App() {
 
   // const isUser=false;
   // const data=isUser?<FunctionOne/>:<FunctionTwo/>
+
+  const goForTrophy=(value)=>{
+    console.log("RCB",value);
+  };
 
   return (
    <div>
@@ -34,8 +40,10 @@ function App() {
     {/* <NormalComponent name="Normal"/>
     <UpdatedComponent name="Updated"/> */
     }
-    <NormalUser/>
-    <PremiumUser/>
+    {/* <NormalUser/>
+    <PremiumUser/> */}
+    {/* <GetApiData/> */}
+    <Ipl name="RCB" handle={goForTrophy}/>
    </div>
   );
 }
