@@ -15,6 +15,9 @@ import NormalUser from './Component/hoc/NormalUser'
 import PremiumUser from './Component/hoc/PremiumUser'
 import GetApiData from './Component/GetApi'
 import Ipl from './Component/Ipl'
+import PostDataApi from './Component/PostApi'
+import Mounting from './Component/Mounting'
+import MountUpdateUnmount from './Component/MountUpdateUnmount'
 
 function App() {
 
@@ -43,7 +46,10 @@ function App() {
     {/* <NormalUser/>
     <PremiumUser/> */}
     {/* <GetApiData/> */}
-    <Ipl name="RCB" handle={goForTrophy}/>
+    {/* <Ipl name="RCB" handle={goForTrophy}/> */}
+    {/* <PostDataApi/> */}
+    {/* <Mounting/> */}
+    {/* <MountUpdateUnmount/> */}
    </div>
   );
 }
