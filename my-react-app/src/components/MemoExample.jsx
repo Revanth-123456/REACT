@@ -44,7 +44,7 @@ function MemoExample() {
               gap: "10px",
             }}
           >
-            <img src={item.thumbnail} alt={item.title} width="60" />
+            <img src={item.thumbnail} alt={item.title} width="100" />
             <div>
               <h4>{item.title}</h4>
               <p>₹ {item.price}</p>
