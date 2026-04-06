@@ -7,7 +7,7 @@ import { AuthProvider } from './components/AuthProvider.jsx'
 createRoot(document.getElementById('root')).render(
     // <AuthProvider>
         <App />
-    // </AuthProvider>
+    //  </AuthProvider>
 )
 
 

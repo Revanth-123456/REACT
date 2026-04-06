@@ -5,7 +5,7 @@ import response from './components/response'
 import React from 'react'
 // import SecondComponent from './components/SecondComponent'  //comment until i change
 import MemoExample from './components/MemoExample'
- // import { AuthContext,useContext } from './components/AuthProvider'  //notuse
+// import { AuthContext,useContext } from './components/AuthProvider'  //notuse
 
 import { CounterRedux } from "../redux/CounterRedux";
 
@@ -20,8 +20,8 @@ function App() {
   return (
     <div>
 
-      {/* below dont open */}
-       {/* <h1>Simple Auth Example</h1>
+      {/* below dont open
+       <h1>Simple Auth Example</h1>
 
       {isLoggedIn ? (
         <>
