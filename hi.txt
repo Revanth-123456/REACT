@@ -64,3 +64,7 @@ Passing the component as an argument to another component to get an updated comp
 
 how do pass data from children component to parent component ?how do u uplift data from child to parent?
 answer-ipl.jsx answer
+
+
+redux-action,reducer,store,
+reducer-logic to access stored information

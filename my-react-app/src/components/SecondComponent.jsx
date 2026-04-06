@@ -1,8 +1,8 @@
-import React from "react";
-import ThreeComp from "./ThreeComponent";
+// import React from "react";
+// import ThreeComp from "./ThreeComponent";
 
-function SecondComponent() {
-return <ThreeComp />;
-}
+// function SecondComponent() {
+// return <ThreeComp />;
+// }
 
-export default SecondComponent;
+// export default SecondComponent;
