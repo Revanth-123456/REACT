@@ -23,6 +23,9 @@ export function CounterRedux() {
           Decrement
         </button>
       </div>
+      <div>
+        <h1>Hello Count {count}</h1>
+      </div>
     </div>
   );
 }
