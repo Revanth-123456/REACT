@@ -1,0 +1,70 @@
+// react is javascript library
+// it is used to develop UI pages by building components
+// it is used in developing single page application
+// modules-logic package-collection of modules
+//react is built with multiple components
+//component-functional component & class components-in both props will come
+
+
+   // <div>
+    //   <div>
+    //     <h1 className='heading'>Hello React</h1>
+    //   </div>
+    //   <div>
+    //     <FirstComponent>
+
+    //     </FirstComponent>
+    //   </div>
+    //   <div>
+    //     <SecondComponent>
+
+    //     </SecondComponent>
+    //   </div>
+
+    // </div>
+
+//props-it is just a data(store data-using code) used to communicate between the components
+//difference between props and state
+props- props are immutable (read-only) and passed down from a parent component to a child, 
+state-state is mutable and managed locally within the component.
+
+
+//bind
+
+//set state-method which is used to update the current state
+
+//functionalcomponent (Stateless)    Class component(Stateful)
+will not handle state                 has state to handle
+no render                             render
+
+TO handle those functions in functionalcomponent-to make stateful
+hooks- are introduced to handle the features that are available in class component to functionalcomponent
+
+state                                 props
+data in component                     data is passed between component
+can update state                      cannot be updated
+it is mutable                         it is immutable
+
+syntax for fragment-<> </> to remove unnecessary code.
+
+syntax for the usage of useState 
+
+const [name,setName]=useState();
+const [age,setAge]=useState();
+const[isSalaried,setIsSalaried]=useState();
+
+useEffect-it is used to add the side effects to your component,
+how do u call useEffect only once,after change of source value,what is DI(dependency injection)??
+
+setstate-is used to update the state
+usestate-functionalComponent
+
+
+Passing the component as an argument to another component to get an updated component
+
+how do pass data from children component to parent component ?how do u uplift data from child to parent?
+answer-ipl.jsx answer
+
+
+redux-action,reducer,store,
+reducer-logic to access stored information
